@@ -10,6 +10,41 @@ Play 的 Scala API 在 play.api 包中。
 
 首先，你得有个 Github 账号，然后：
 
+via google translate:
+
+Participation translation
+
+First, you have to have a Github account, then:
+
+Open this project, Mengchuo "Fork" button
+Fork to account under the item to your local Clone: ​​git clone git@github.com: your account name /play-for-scala-developers.git
+In the project directory, create a new branch, such as the new branch named dev, then: git branch dev
+Switch to the new branch: git checkout dev
+Run git remote add upstream https://github.com/Hawstein/play-for-scala-developers.git the original project library add upstream library for synchronizing the latest content
+Translation work in the dev branch, for example, you make changes (Play Doc: https: //www.playframework.com/documentation/2.3.x/ScalaHome) on ScalaRock.md
+Submit your work: git add ScalaRock.md, then git commit -m 'translation ScalaRock'. In the process, you can use git status to view the status
+Run git remote update update
+Run git fetch upstream master pulling the upstream update to the local library
+Run git rebase upstream / master database will be updated upstream into your dev branch
+Run git push origin dev: master submitting your push to your library
+Login Github, in your project page Fork has a "Pull Request" button, click on it, fill in some description, and then submit
+Repeat steps 6-12
+To avoid duplicate translation than the same chapter, first performed in front of the translation section of the claim. You can claim the post http://scalachina.org/topic/5501c59784ddfe6644e8c8d4 reply in the corresponding sections, you can also add QQ group, in the group said. Group number: 312 213 800.
+
+Claim and complete. See: http://scalachina.org/topic/5501c59784ddfe6644e8c8d4
+
+Terminology Chart
+
+The following table is a term used to translate documents, such doubt or choose a better translation, please submit Pull Requests.
+
+English Chinese
+controller controller
+type class
+
+
+
+
+
 1. 打开[这个项目](https://github.com/Hawstein/play-for-scala-developers)，猛戳「Fork」按钮
 1. 把 Fork 到你账号下的项目 Clone 到本地：git clone git@github.com:你的账号名/play-for-scala-developers.git
 1. 在项目目录下，创建一个新分支来工作，比如新分支名叫 dev，则：git branch dev
